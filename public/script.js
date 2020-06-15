@@ -30,4 +30,10 @@ const context = {
       }
     ]
   };
-  
+
+  const templateElement = document.getElementById("templateHB");
+  let templateSource = templateElement.innerHTML;
+  let template = Handlebars.compile(templateSource);
+  let compiledHTML = template(context);
+  console.log(compiledHTML);
+  document.getElementById("information").innerHTML = compiledHTML;
