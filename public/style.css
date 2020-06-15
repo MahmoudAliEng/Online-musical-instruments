@@ -58,11 +58,18 @@
   .navbar li a:hover, .navbar .current a {
     color: #ffffff;
   }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
   
   /* Home Page Rulesets */
   
   #introduction {
-  
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 50%;
   }
   
   #introduction h1 {
@@ -97,9 +104,13 @@
   }
   
   .instrument {
+    border-radius: 5px;
     width: 90%;
     overflow: auto;
-  
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 5% auto;
+    padding: 2% 5%
+    
   }
   
   .image {
